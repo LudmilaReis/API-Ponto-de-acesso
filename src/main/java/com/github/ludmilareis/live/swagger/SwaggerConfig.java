@@ -23,7 +23,7 @@ public class SwaggerConfig {
     public Docket apiAdmin() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.github.ludmilareis.live.swagger"))
+                .apis(RequestHandlerSelectors.basePackage("com.github.ludmilareis.live.controller"))
                 .paths(PathSelectors.ant("/**"))
                 .build()
                 .apiInfo(apiInfo());
