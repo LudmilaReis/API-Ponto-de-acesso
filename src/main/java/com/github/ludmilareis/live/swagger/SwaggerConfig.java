@@ -42,7 +42,7 @@ public class SwaggerConfig {
     public ApiInfo apiInfo() {
         return new ApiInfoBuilder()
                 .title("API-REST")
-                .description("Sistema para controle de ponto e acesso")
+                .description("Sistema de controle de ponto de acesso")
                 .version("1.0.0")
                 .license("Apache License Version 2.0")
                 .licenseUrl("https://www.apache.org/licenses/LICENSE-2.0")
